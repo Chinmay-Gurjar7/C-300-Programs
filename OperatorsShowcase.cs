@@ -1,0 +1,18 @@
+using System;
+
+class OperatorsShowcase
+{
+    static void Main()
+    {
+        int a = 10, b = 5;
+
+        Console.WriteLine("Addition: " + (a + b));
+        Console.WriteLine("Subtraction: " + (a - b));
+        Console.WriteLine("Multiplication: " + (a * b));
+        Console.WriteLine("Division: " + (a / b));
+        Console.WriteLine("Modulus: " + (a % b));
+
+        Console.WriteLine("Greater than: " + (a > b));
+        Console.WriteLine("Equal to: " + (a == b));
+    }
+}
